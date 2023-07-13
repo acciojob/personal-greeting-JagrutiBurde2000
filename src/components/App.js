@@ -15,7 +15,7 @@ const App = () => {
   return (
     <div>
         {/* Do not remove the main div */}
-        <h1>Enter your name:</h1>
+        <p>Enter your name:</p>
         <input type="text" placeholder="Enter Your Name" 
                   onChange={manageName}
                   value={name}
@@ -23,7 +23,7 @@ const App = () => {
                  />
                      {/* <button onClick={()=>setName("")}> Clear </button> */}
 
-                    <h1>Hello {name} !</h1>
+                    <p>Hello {name} !</p>
     </div>
   )
 }
