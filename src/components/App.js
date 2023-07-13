@@ -15,7 +15,7 @@ const App = () => {
   return (
     <div>
         {/* Do not remove the main div */}
-        <p>Enter your name:</p>
+        Enter your name:
         <input type="text" placeholder="Enter Your Name" 
                   onChange={manageName}
                   value={name}
