@@ -23,7 +23,7 @@ const App = () => {
                  />
                      {/* <button onClick={()=>setName("")}> Clear </button> */}
 
-                    <p>Hello {name} !</p>
+                    <p>Hello {name}!</p>
     </div>
   )
 }
